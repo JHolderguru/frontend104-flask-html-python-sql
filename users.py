@@ -23,3 +23,5 @@ class DBClientTable(MSDBConnection):
                 break
             result_list.append(row)
         return result_list
+
+#test

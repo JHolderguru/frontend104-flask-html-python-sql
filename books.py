@@ -32,3 +32,5 @@ class DbBookTable(MSDBConnection):
 # print(new_book)
 new_search = DbBookTable().get_all()
 print(new_search)
+
+#test

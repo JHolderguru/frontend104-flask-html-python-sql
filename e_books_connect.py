@@ -21,3 +21,4 @@ class MSDBConnection:
 
         return self.cursor.execute(sql_string)
 
+#test
