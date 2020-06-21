@@ -5,13 +5,13 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import redirect
 from db_html_connect import ConnectHTMLSQL
 import sqlite3
-
 # initializing sqlite3 datatbase called ebooks
 connection = sqlite3.connect('ebooks.db')
 cursor = connection.cursor()
 # Creating ebook table
 # cursor.execute(""" CREATE TABLE ebooks (
 #     id INTEGER,
+
 #     title TEXT,
 #     author TEXT,
 #     genre TEXT,
