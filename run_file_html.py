@@ -7,6 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import redirect
 from db_html_connect import ConnectHTMLSQL
 
+
 project_dir = os.path.dirname(os.path.abspath(__file__))
 database_file = "sqlite:///{}".format(os.path.join(project_dir, "ebooksdb.db"))
 
@@ -26,6 +27,7 @@ all_tables = ConnectHTMLSQL().create_all_tables()
 
 
 @app.route("/")
+@app.route("/home")
 def render_static():
     return render_template("home.html")
 
