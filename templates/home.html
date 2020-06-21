@@ -1,35 +1,35 @@
+
 <html>
   <body>
     <h1>Add book</h1>
-    <form method="POST" action="/">
+    <form method="POST" action="{{url_for('home')}}">
       <input type="text" name="title">
       <input type="submit" value="Add">
     </form>
 
     <h1>Books</h1>
     <table>
-      {% for book in books %}
+      {% for table in all_tables %}
         <tr>
           <td>
-            {{book.title}}
+            {{table.title}}
           </td>
           <td>
-            <form method="POST" action="./update" style="display: inline">
-              <input type="hidden" value="{{book.title}}" name="oldtitle">
-              <input type="text" value="{{book.title}}" name="newtitle">
+            <form method="POST" action="{{url_for('home')}}" style="display: inline">
+              <input type="hidden" value="{{'all_tables'}}" name="">
+              <input type="text" value="{{'all_tables'}}" name="">
               <input type="submit" value="Update">
             </form>
           </td>
-          <td>
-            <form method="POST" action="./delete" style="display: inline">
-              <input type="hidden" value="{{book.title}}" name="title">
-              <input type="submit" value="Delete">
-            </form>
-          </td>
+<!--          <td>-->
+<!--            <form method="POST" action="{{url_for('home')}}" style="display: inline">-->
+<!--              <input type="hidden" value="{{'all_tables'}}" name="">-->
+<!--              <input type="submit" value="Delete">-->
+<!--            </form>-->
+<!--          </td>-->
         </tr>
       {% endfor %}
     </table>
   </body>
 </html>
 
-test
