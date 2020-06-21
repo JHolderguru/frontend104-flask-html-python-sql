@@ -24,7 +24,7 @@ cursor = connection.cursor()
 
 # Linking to ebooks db though SQLAlchemy
 project_dir = os.path.dirname(os.path.abspath(__file__))
-database_file = "sqlite:///{}".format(os.path.join(project_dir, "example.db"))
+database_file = "sqlite:////{}".format(os.path.join(project_dir, "ebooks.db"))
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = database_file
 db = SQLAlchemy(app)
@@ -38,10 +38,9 @@ class Book(db.Model):
     image = db.Column(db.String(20))
 
 
-
 @app.route("/")
-@app.route("/home")
-def render_static():
+@app.route("/index")
+def index():
     return render_template("home.html")
 
 
@@ -57,6 +56,10 @@ def search():
     # names = all_tables #.order_by(all_tables.users.name).all()
 
     return render_template('search_form.html')
+
+@app.route('/catalog')
+def catalog():
+    return render_template('ebook_catalog.html')
 
 
 @app.route('/all_tables', methods=["GET", "POST"])
