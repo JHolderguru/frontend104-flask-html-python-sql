@@ -1,28 +1,46 @@
 import os
-
 from flask import Flask
 from flask import render_template, url_for
-from flask import request
+from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import redirect
 from db_html_connect import ConnectHTMLSQL
+import sqlite3
 
+# initializing sqlite3 datatbase called ebooks
+connection = sqlite3.connect('ebooks.db')
+cursor = connection.cursor()
+# Creating ebook table
+# cursor.execute(""" CREATE TABLE ebooks (
+#     id INTEGER,
+#     title TEXT,
+#     author TEXT,
+#     genre TEXT,
+#     image TEXT
+# )
+# """)
+# connection.commit()
+# connection.close()
+# cursor.execute()
+
+# Linking to ebooks db though SQLAlchemy
 project_dir = os.path.dirname(os.path.abspath(__file__))
-database_file = "sqlite:///{}".format(os.path.join(project_dir, "ebooksdb.db"))
-
+database_file = "sqlite:///{}".format(os.path.join(project_dir, "example.db"))
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = database_file
+db = SQLAlchemy(app)
 
 
-# class Book(ConnectHTMLSQL):
+class Book(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(20))
+    author = db.Column(db.String(25))
+    genre = db.Column(db.String(20))
+    image = db.Column(db.String(20))
 
-    # title = db.Column(db.String(80), unique=True, nullable=False, primary_key=True)
-all_tables = ConnectHTMLSQL().create_all_tables()
-
-    # def __repr__(self):
-    #     return "<title: {}>".format(self.title)
 
 
 @app.route("/")
+@app.route("/home")
 def render_static():
     return render_template("home.html")
 
@@ -38,7 +56,7 @@ def search():
 
     # names = all_tables #.order_by(all_tables.users.name).all()
 
-    return render_template('home.html')
+    return render_template('search_form.html')
 
 
 @app.route('/all_tables', methods=["GET", "POST"])
