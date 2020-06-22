@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dd66884-df4b-4ce3-a094-12a8b5910fae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Templates/ebook_catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frontend104-flask-html-python-sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frontend104-flask-html-python-sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_file_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_file_html.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dXH4bZsLybEjPK6AR62IBIcrqX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Templates" />
+      <recent name="$PROJECT_DIR$/static/photos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_file_html">
+    <configuration name="Ebook" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ebook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_file_html" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_file_html.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_file_html" />
+        <item itemvalue="Python.Ebook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dd66884-df4b-4ce3-a094-12a8b5910fae" name="Default Changelist" comment="" />
+      <created>1592564327550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592564327550</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="167" key="#Ebook" timestamp="1592672874799">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="582" y="157" key="#Ebook/0.0.1792.1120@0.0.1792.1120" timestamp="1592667124346" />
+    <state x="582" y="167" key="#Ebook/0.23.1792.1028@0.23.1792.1028" timestamp="1592672874799" />
+    <state x="582" y="157" key="#run_file_html" timestamp="1592667204830">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="582" y="157" key="#run_file_html/0.0.1792.1120@0.0.1792.1120" timestamp="1592667204830" />
+    <state width="1771" height="277" key="GridCell.Tab.0.bottom" timestamp="1592760311508">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1771" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1592667713644" />
+    <state width="1771" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1592726104535" />
+    <state width="1771" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1592759599757" />
+    <state width="1771" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1592760311508" />
+    <state width="1771" height="344" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871207" />
+    <state width="1771" height="277" key="GridCell.Tab.0.center" timestamp="1592760311507">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1771" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1592667713643" />
+    <state width="1771" height="277" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1592726104535" />
+    <state width="1771" height="277" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1592759599757" />
+    <state width="1771" height="277" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1592760311507" />
+    <state width="1771" height="344" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871207" />
+    <state width="1771" height="277" key="GridCell.Tab.0.left" timestamp="1592760311507">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1771" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1592667713642" />
+    <state width="1771" height="277" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1592726104534" />
+    <state width="1771" height="277" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1592759599756" />
+    <state width="1771" height="277" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1592760311507" />
+    <state width="1771" height="344" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871206" />
+    <state width="1771" height="277" key="GridCell.Tab.0.right" timestamp="1592760311507">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="1771" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1592667713643" />
+    <state width="1771" height="277" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1592726104535" />
+    <state width="1771" height="277" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1592759599757" />
+    <state width="1771" height="277" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1592760311507" />
+    <state width="1771" height="344" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871207" />
+    <state width="1771" height="344" key="GridCell.Tab.1.bottom" timestamp="1592733871208">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1771" height="344" key="GridCell.Tab.1.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1592731293679" />
+    <state width="1771" height="344" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871208" />
+    <state width="1771" height="344" key="GridCell.Tab.1.center" timestamp="1592733871208">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1771" height="344" key="GridCell.Tab.1.center/0.23.1792.1024@0.23.1792.1024" timestamp="1592731293679" />
+    <state width="1771" height="344" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871208" />
+    <state width="1771" height="344" key="GridCell.Tab.1.left" timestamp="1592733871208">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1771" height="344" key="GridCell.Tab.1.left/0.23.1792.1024@0.23.1792.1024" timestamp="1592731293679" />
+    <state width="1771" height="344" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871208" />
+    <state width="1771" height="344" key="GridCell.Tab.1.right" timestamp="1592733871208">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1771" height="344" key="GridCell.Tab.1.right/0.23.1792.1024@0.23.1792.1024" timestamp="1592731293679" />
+    <state width="1771" height="344" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1592733871208" />
+    <state x="345" y="327" key="SettingsEditor" timestamp="1592756712009">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="394" y="173" key="SettingsEditor/0.23.1792.1024@0.23.1792.1024" timestamp="1592755766815" />
+    <state x="345" y="327" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1592756712009" />
+  </component>
+</project>

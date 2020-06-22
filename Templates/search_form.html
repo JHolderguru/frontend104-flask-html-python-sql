@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+		<div class="container text-center padding-top">
+			<h1>CREATE YOUR OWN E-BOOK</h1>
+		</div>
+
+		<div class="padding">
+			<form>
+			  <div class="form-group">
+			    <label for="formAuthor">Author</label>
+			    <input type="text" class="form-control" id="formAuthor" placeholder="E.M. Forster">
+			  </div>
+			  <div class="form-group">
+			    <label for="formEmail">Email address</label>
+			    <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+			  </div>
+			   <div class="form-group">
+			    <label for="formTitle">Book Title</label>
+			    <input type="text" class="form-control" id="formTitle" placeholder="Howards End">
+			  </div>
+			  <div class="form-group">
+			    <label for="formGenre">Select Genre</label>
+			    <select class="form-control" id="formGenre">
+			      <option>Novel</option>
+			      <option>Fiction</option>
+			      <option>Biography</option>
+			      <option>Drama</option>
+			      <option>Nonfiction</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="formReleaseDate">Release Date</label>
+			    <input type="Date" class="form-control" id="formReleaseDate">
+			  </div>
+			   <div class="form-group">
+    				<label for="formFile">Example file input</label>
+    				<input type="file" class="form-control-file" id="formFile">
+  			   </div>
+			</form>
+		</div>
+
+{% endblock content %}
