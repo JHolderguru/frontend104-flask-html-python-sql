@@ -12,8 +12,8 @@ cursor = connection.cursor()
 
 
 # initializing sqlite3 datatbase called ebooks
-connection = sqlite3.connect('ebooks.db')
-cursor = connection.cursor()
+# connection = sqlite3.connect('ebooks.db')
+# cursor = connection.cursor()
 # Creating ebook table
 # cursor.execute(""" CREATE TABLE ebooks (
 #     id INTEGER,
