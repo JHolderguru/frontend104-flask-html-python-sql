@@ -15,9 +15,9 @@
             {{table.title}}
           </td>
           <td>
-            <form method="POST" action="{{url_for('home')}}" style="display: inline">
-              <input type="hidden" value="{{'all_tables'}}" name="">
-              <input type="text" value="{{'all_tables'}}" name="">
+            <form method="POST" action="{{url_for('query_page')}}" style="display: inline">
+              <input type="hidden" value="{{url_for('query_page')}}" name="">
+              <input type="text" value="{{url_for('query_page')}}" name="">
               <input type="submit" value="Update">
             </form>
           </td>

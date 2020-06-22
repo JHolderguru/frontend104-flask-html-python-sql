@@ -5,6 +5,10 @@ from flask import render_template, url_for
 from flask import request
 from werkzeug.utils import redirect
 from db_html_connect import ConnectHTMLSQL
+import sqlite3
+
+connection = sqlite3.connect('ebooks.db')
+cursor = connection.cursor()
 
 project_dir = os.path.dirname(os.path.abspath(__file__))
 database_file = "sqlite:///{}".format(os.path.join(project_dir, "ebooksdb.db"))
@@ -27,7 +31,7 @@ def render_static():
     return render_template("home.html")
 
 
-@app.route('/search', methods=['GET', 'POST'])
+@app.route('/query_page', methods=['GET', 'POST'])
 def search():
     # searchForm = searchForm()
     # courses = models.Course.query
@@ -38,10 +42,10 @@ def search():
 
     # names = all_tables #.order_by(all_tables.users.name).all()
 
-    return render_template('home.html')
+    return redirect("query_page.html")
 
 
-@app.route('/all_tables', methods=["GET", "POST"])
+@app.route('/query_page', methods=["GET", "POST"])
 def home():
     all_tables = ConnectHTMLSQL().create_all_tables()
         # try:
@@ -53,12 +57,12 @@ def home():
         #     print("Failed to add book")
         #     print(e)
         #     all_tables.query.all()
-    return render_template("/home.html")
+    return redirect("query_page.html")
 
 
 
 
-@app.route("/update", methods=["POST"])
+@app.route("/query_page", methods=["POST"])
 def add():
     # try:
     #     all_tables.form.get()
@@ -68,7 +72,7 @@ def add():
     # except Exception as e:
     #     print("Couldn't update book title")
     #     print(e)
-    return redirect("home.html")
+    return redirect("query_page.html")
 
 
 # @app.route("/delete", methods=["POST"])

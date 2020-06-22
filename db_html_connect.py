@@ -43,3 +43,11 @@ class ConnectHTMLSQL:
                                 )
         self.self_publishing = self_publishing
         self.metadata.create_all(self.engine)
+
+
+    # def add_customer(self):
+    #     self.users = Table('users', self.metadata,
+    #                        Column('user_id'),
+    #                        Column('name'),
+    #                        Column('email'),
+    #                        Column('phone_no'),
