@@ -4,8 +4,8 @@
 {% block content %}
     <h1>Create an eBook</h1>
     <div class="container">
-        <form method="POST" action="{{url_for('query_page')}}">
-            {{ form.hidden_tag() }}
+        <form method="POST" action="{{url_for('render_static')}}">
+
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">Create an eBook</legend>
             </fieldset>
@@ -25,7 +25,7 @@
     <!--  Switch to Create eBook page  -->
     <div class="border-top pt-3">
         <small class="text-muted">
-            Have an eBook in mind? <a href="{{ url_for('query_page') }}" class="ml-2">Search for one instead</a>
+            Have an eBook in mind? <a href="{{ url_for('render_static') }}" class="ml-2">Search for one instead</a>
         </small>
     </div>
 {% endblock content %}

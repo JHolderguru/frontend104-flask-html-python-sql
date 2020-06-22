@@ -28,51 +28,51 @@ all_tables = ConnectHTMLSQL().create_all_tables()
 
 @app.route("/")
 def render_static():
-    return render_template("home.html")
+    return render_template("query_page.html")
 
 
-@app.route('/query_page', methods=['GET', 'POST'])
-def search():
-    # searchForm = searchForm()
-    # courses = models.Course.query
-    all_tables = ConnectHTMLSQL().create_all_tables()
-
-    # if all_tables.validate_on_submit():
-    #     names = all_tables.filter(all_tables.users.name.like('%' + all_tables.name.data + '%'))
-
-    # names = all_tables #.order_by(all_tables.users.name).all()
-
-    return redirect("query_page.html")
-
-
-@app.route('/query_page', methods=["GET", "POST"])
-def home():
-    all_tables = ConnectHTMLSQL().create_all_tables()
-        # try:
-        #     # all_tables.session.post()
-        #     # all_tables.session.get()
-        #     all_tables.session.add()
-        #     all_tables.session.commit()
-        # except Exception as e:
-        #     print("Failed to add book")
-        #     print(e)
-        #     all_tables.query.all()
-    return redirect("query_page.html")
-
-
-
-
-@app.route("/query_page", methods=["POST"])
-def add():
-    # try:
-    #     all_tables.form.get()
-    #     all_tables.form.get()
-    #     all_tables.query.filter_by(title='').first()
-    #     all_tables.session.commit()
-    # except Exception as e:
-    #     print("Couldn't update book title")
-    #     print(e)
-    return redirect("query_page.html")
+# @app.route('/home', methods=['GET', 'POST'])
+# def search():
+#     # searchForm = searchForm()
+#     # courses = models.Course.query
+#     all_tables = ConnectHTMLSQL().create_all_tables()
+#
+#     # if all_tables.validate_on_submit():
+#     #     names = all_tables.filter(all_tables.users.name.like('%' + all_tables.name.data + '%'))
+#
+#     # names = all_tables #.order_by(all_tables.users.name).all()
+#
+#     return render_template("query_page.html")
+#
+#
+# @app.route('/search', methods=["GET", "POST"])
+# def home():
+#     all_tables = ConnectHTMLSQL().create_all_tables()
+#         # try:
+#         #     # all_tables.session.post()
+#         #     # all_tables.session.get()
+#         #     all_tables.session.add()
+#         #     all_tables.session.commit()
+#         # except Exception as e:
+#         #     print("Failed to add book")
+#         #     print(e)
+#         #     all_tables.query.all()
+#     return render_template("query_page.html")
+#
+#
+#
+#
+# @app.route("/query_page", methods=["POST"])
+# def add():
+#     # try:
+#     #     all_tables.form.get()
+#     #     all_tables.form.get()
+#     #     all_tables.query.filter_by(title='').first()
+#     #     all_tables.session.commit()
+#     # except Exception as e:
+#     #     print("Couldn't update book title")
+#     #     print(e)
+#     return redirect("query_page.html")
 
 
 # @app.route("/delete", methods=["POST"])

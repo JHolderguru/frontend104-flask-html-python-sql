@@ -2,7 +2,7 @@
 <html>
   <body>
     <h1>Add book</h1>
-    <form method="POST" action="{{url_for('home')}}">
+    <form method="POST" action="{{url_for('query_page')}}">
       <input type="text" name="title">
       <input type="submit" value="Add">
     </form>
@@ -15,7 +15,7 @@
             {{table.title}}
           </td>
           <td>
-            <form method="POST" action="{{url_for('query_page')}}" style="display: inline">
+            <form method="POST" action="{{url_for('home')}}" style="display: inline">
               <input type="hidden" value="{{url_for('query_page')}}" name="">
               <input type="text" value="{{url_for('query_page')}}" name="">
               <input type="submit" value="Update">
